@@ -32,13 +32,20 @@
       display: block;
       margin: 10px 0 5px;
     }
-    input, select {
+    input, select, button {
       width:100%;
       padding: 8px;
       margin-bottom: 15px;
       border: 1px solid #000000;
       border-radius: 5px;
       box-sizing: border-box;
+    }
+    button {
+      background:dodgerblue;
+      color:white;
+      font-size: 15px;
+      border: none;
+      
     }
       </style>
         </head>
@@ -60,14 +67,17 @@
     <label for="">Nomor HP</label>
     <input type="tel" name="hp" id="">
     
-    <<label for="">Paket Study Tour</label>
+    <label for="">Paket Study Tour</label>
     <select name="paket" id="">
       <option value="">paket A- Bandung</option>
-      <<option value="">Paket B- yogyakarta</option>
-      <<option value="">paket C- Bali</option>
+      <option value="">Paket B- yogyakarta</option>
+      <option value="">paket C- Bali</option>
     </select>
+    
+    <button type="submit">Daftar Tour</button>
   </form>
   </div>
+  </body>
   <script src="main.js"></script>
 </body>
 </html>
